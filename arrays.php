@@ -38,4 +38,7 @@ in_array('red', $colors);       // Check if value exists
 count($colors);                 // Get number of elements
 
 // Remove elements
+
 unset($user['email']);          // Remove specific element
+
+?>
