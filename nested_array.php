@@ -15,4 +15,7 @@ $blogPost = [
 
 echo $blogPost['title'];                  // outputs: Getting Started with PHP
 echo $blogPost['author']['name'];         // outputs: John
+
 echo $blogPost['comments'][0]['text'];    // outputs: Great article!
+
+?>
