@@ -32,9 +32,12 @@ function add(int $number_1, int $number_2): int{
 
 echo "\n" . add(5, 1); // Outputs: 6
 
+?>
+
 // Anonymous function
 $greet = function($name = 'you'){
     echo "hello, " . $name;
 };
+
 
 greet('Taylor');
