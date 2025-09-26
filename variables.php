@@ -29,4 +29,7 @@ var_dump($age_text);
 
 // PHP can guess the datatype of some variables
 $sum = '500' + 10;
+
 var_dump($sum);
+
+?>
